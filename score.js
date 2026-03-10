@@ -66,7 +66,7 @@ function startConductor() {
     return;
   }
   clearInterval(markerInterval);
-  markerInterval = setInterval(nextNote, 1000); // 1 sekunda na noto (simulacija)
+  markerInterval = setInterval(nextNote, 1000);
 }
 
 
